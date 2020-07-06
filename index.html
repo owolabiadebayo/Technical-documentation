@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+<body>
+  <div class="grid-container">
+    <nav id="navbar">
+      <header>Javascript Documentation</header>
+      <a href="#Introduction" class="nav-link">JS Introduction</a>
+      <a href="#statement" class="nav-link">Js statement</a>
+      <a href="#Functions" class="nav-link">Js Functions</a>
+      <a href="#Comment" class="nav-link">Js comment</a>
+      <a href="#Variable" class="nav-link">Js variable</a>
+    </nav>
+
+<main id="main-doc">
+<section class="main-section" id="Introduction">
+<header>Introduction</header>
+<p>JavaScript is the programming language of HTML and the Web.JavaScript is easy to learn.This tutorial will teach you JavaScript from basic to advanced.</p>
+<p>JavaScript is one of the 3 languages all web developers must learn:
+  <li>HTML to] define the content of web pages</li>
+  <li>CSS to specify the layout of web pages</li>
+  <li>JavaScript to program the behavior of web pages</li>
+Web pages are not the only place where JavaScript is used. Many desktop and server programs use JavaScript. Node.js is the best known. Some databases, like MongoDB and CouchDB, also use JavaScript as their programming language.</p>
+</section>
+<section class="main-section" id="statement">
+<header>statement</header>
+<p>JavaScript Programs
+A computer program is a list of "instructions" to be "executed" by a computer.
+
+In a programming language, these programming instructions are called statements.
+
+A JavaScript program is a list of programming statements.</p>
+<ul>
+    <li>Values</li>
+    <li>Keyword</li>
+    <li>Expression</li>
+    <li>Value</li>
+    <li>continue statement</li>
+  </ul>
+<code>      
+document.getElementById("demo").innerHTML = "Hello Dolly.";</code>
+</section>
+<section class="main-section" id="Functions">
+<header>Functions</header>
+<p>Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.</p>
+<p>For example, the following code defines a simple function named square:</p>
+<code>function square(number){
+  return number * number;
+}</code>
+<p>The statement return specifies the value returned by the function.</p>
+<code>return number * number;</code>
+</section>
+<section class="main-section" id="comment">
+<header>single and multiple line Comment</header>
+<p>Single line comments start with //.Any text between // and the end of the line will be ignored by JavaScript (will not be executed).Any text between /* and */ will be ignored by JavaScript.
+This example uses a single-line comment before each code line:</p>
+        <code>// Change heading:
+document.getElementById("myH").innerHTML = "My First Page";</code>
+</section>
+<section class="main-section" id="Variable">
+<header>Variable</header>
+<p>JavaScript Identifiers
+All JavaScript variables must be identified with unique names.
+These unique names are called identifiers.
+Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
+The general rules for constructing names for variables (unique identifiers) are:
+<li>Names can contain letters, digits, underscores, and dollar signs.</li>
+<li>Names must begin with a letter</li>
+<li>Names can also begin with $ and _ (but we will not use it in this tutorial)</li>
+<li>Names are case sensitive (y and Y are different variables)</li>
+Reserved words (like JavaScript keywords) cannot be used as names</p>
+        <code>var pi = 3.14;
+var person = "John Doe";
+var answer = 'Yes I am!';</code>
+</section>
+<p>*All documentation is taken from <a href="https://www.w3schools.com/js/default.asp" target="_blank">W3school</a></p>
+</main>
+</div>
+<footer>
+  <p> copyright &copy Owolabi Adebayo</p>
+</footer>
+</body>
+  
